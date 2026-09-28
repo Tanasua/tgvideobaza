@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(~/.tg-smotri/**)",
+      "Edit(~/.tg-smotri/**)",
+      "Read(**/*.session)",
+      "Read(**/*.session-journal)",
+      "Read(.env)",
+      "Read(.env.*)"
+    ]
+  }
+}

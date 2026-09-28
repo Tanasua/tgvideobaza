@@ -1,0 +1,17 @@
+# Дані архіву: відео, кадри, бази
+data/
+
+# Сесії Telegram (повний доступ до акаунта) — на випадок, якщо хтось покладе сюди
+*.session
+*.session-journal
+
+# Секрети
+.env
+.env.*
+
+# Особисті налаштування Claude Code
+.claude/settings.local.json
+
+# Python
+__pycache__/
+.venv/
